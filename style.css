@@ -1,0 +1,24 @@
+
+.imagem-noticia {
+    width: 20vmax;
+    height: 15vmax;
+    justify-content: left;
+}
+
+.imagem {
+    width: 40vmax;
+    height: 25vmax;
+}
+
+.texto {
+    justify-content: right;
+    margin: 10px;
+
+}
+
+.link {
+    color: black;
+    border-radius: 15%;
+    text-decoration: none;
+    
+}
