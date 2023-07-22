@@ -1,0 +1,116 @@
+/* @keyframes zoom {
+    from {
+        r:30;
+    }
+    to {
+        r:40;
+    }
+}
+.meuCirculo {
+    r:30;
+    cx:50;
+    cy:50;
+    fill:blue;
+    stroke:grey;
+    stroke-width: 2;
+    transition: all 1s ease;
+    
+}
+
+.meuCirculo:hover {
+    fill: grey;
+    stroke:blue;
+    stroke-width: 2;
+    animation-name: zoom;
+    animation-duration: 500ms;
+} */
+
+.texto {
+    fill:black;
+    font-size: 6px;
+}
+
+
+.linhaCentral {
+    width: 1px;
+    height: 90px;
+    fill:white;
+    x:84;
+}
+
+.circle {
+    r:5;
+    fill:white;
+}
+
+.circle.n1 {
+    cx:12;
+    cy:12;
+}
+
+.circle.n2 {
+    cx:73;
+    cy:75;
+}
+
+.circle.n3 {
+    cx:43;
+    cy:44;
+}
+
+.circle.n4 {
+    cx:128;
+    cy:44;
+}
+
+.circle.n5 {
+    cx:100;
+    cy:75;
+}
+
+.circle.n6 {
+    cx:100;
+    cy:12;
+}
+
+.circle.n7 {
+    cx:160;
+    cy:12;
+}
+
+.circle.n8 {
+    cx:160;
+    cy:75;
+}
+
+.alvo {
+ 
+    stroke: white;
+    stroke-width: 1;
+    cx:100;
+    cy:80;
+}
+.alvo.t1 {
+    fill:black;
+    r:55;
+}
+.alvo.t2 {
+    fill:blue;
+    r:45;
+}
+.alvo.t3 {
+    r:35;
+    fill:red;
+}
+.alvo.t4 {
+    fill:yellow;
+    r:25;
+}
+.alvo.t5 {
+    r:15;
+    fill: red;
+}
+
+.linha {
+    fill:white;
+}
