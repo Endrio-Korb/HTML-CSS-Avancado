@@ -25,14 +25,18 @@
     left: 0;
 }
 
+main {
+    min-height: 90vh;
+} 
+
 .sombra {
     position: absolute;
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
     top: 0;
     left: 0;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.6) 35%, rgba(255,255,255,0.19) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0.6) 50%, rgba(255,255,255,0) 100%);
 }
 
 
@@ -59,4 +63,16 @@
     position: absolute;
     left: 5px;
     top: 8px;
+}
+
+.netflix {
+    font-family: 'Netflix' ,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.em4{
+    font-size: 4em;
+}
+
+.bold {
+    font-weight: bold;
 }
