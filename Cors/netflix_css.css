@@ -1,0 +1,79 @@
+body {
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-4055-8f9a-740a43588583/a7265ef3-cac9-4c22-a3e6-6c88ba72bbf5/BR-pt-20230717-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+}
+
+.z3 {
+    z-index: 3;
+}
+
+.fundo {
+    width: 100vw;
+    height: 90vw;
+    background:rgba(0,0,0 0.4);
+    background:linear-gradient(0deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, 0.7) 100%);
+    z-index: 1;
+}
+
+.texto_principal {
+    color: white;
+    letter-spacing: -3px;
+    font-size: 5vmax;
+}
+
+.texto_secundario {
+    color: white;
+    font-size: 2vmax;
+}
+
+#netflix {
+    color: red;
+    text-decoration: none;
+    font-size: 2.5vmax;
+    font-family: 'Times New Roman', Times, serif;
+    font:bolder;
+    margin-left: 5%;
+}
+
+.opcoesMenu select{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#entrar {
+    background-color: red;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+main {
+    justify-content: center;
+    display: block;
+    margin-top: 10%;
+    font-size: 2vmax;
+}
+
+#email {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 0.5rem;
+    color: white;
+    background:rgba(0,0,0 0.4);
+    background:linear-gradient(0deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, 0.7) 100%);
+    margin-bottom: 15px;
+}
+
+.botao {
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 0.5rem;
+}
+
+#saiba_mais {
+    color: white;
+}
