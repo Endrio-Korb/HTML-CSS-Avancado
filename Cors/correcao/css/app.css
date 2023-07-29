@@ -11,7 +11,7 @@
 .z2 {
     z-index: 2;
 }
-.z3 {
+.z3{
     z-index: 3;
 }
 
@@ -73,6 +73,37 @@ main {
     font-size: 4em;
 }
 
+.em1 {
+    font-size: 1em;
+}
+
 .bold {
     font-weight: bold;
+}
+
+/* Cadastro */
+.cadastro input{
+    width: 70%;
+    float: left;
+    height: 70px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cadastro input::placeholder {
+    color: #ffff;
+}
+
+.cadastro input:focus{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    border: 3px solid #ffff;
+}
+
+.cadastro button{
+    padding: 18px 10px;
+}
+
+.pd10 {
+    padding: 10px;
 }
